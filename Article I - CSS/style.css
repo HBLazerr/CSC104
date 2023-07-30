@@ -1,0 +1,56 @@
+body {
+    background-color: ivory;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%239bcd9b' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23a69285' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2382ba9d' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%238b8b8b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2369a79e' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23708491' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%235095a0' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23547d97' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%233782a1' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2339769d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%231e6fa3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%231e6fa3' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+article {
+    margin-left: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: ivory;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h3 {
+    padding: 20px 0 0;
+    margin-bottom: 0;
+}
+
+p {
+    padding: 0 10px 10px 10px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    background-color: ivory;
+    width: 200px;
+    margin: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+.bringTop {
+    margin-top: 180px;
+    font-weight: bold;
+}

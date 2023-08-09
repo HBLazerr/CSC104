@@ -1,63 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" type="image/png" href="media/HBTemp.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="media/HeartsBreak Logo UC.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Hearts Break Clothing</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <div class="logo">
-            <!-- Screenshot of logo as placeholder -->
-            <img src="media/HBTemp.png" alt="HB Logo">
-        </div>
-        <div class="cart">
-            <!-- Will be icon in the future -->
-            <a href="#">Cart</a>
+      <div class="logo">
+        <a href="index.html">
+          <img src="media/HeartsBreak Logo UC.png" alt="HB Logo" />
+        </a>
+      </div>
 
-            <!-- Might create cart in same page instead of having a separate one -->
-        </div>
+      <div class="cart">
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      </div>
     </nav>
 
-    <div class="slideContainer">
-        <div class="brandImages">
-            <img src="preview1.jpg" alt="Image of __">
-            <img src="preview2.jpg" alt="Image of __">
-            <img src="preview3.jpg" alt="Image of __">
+    <div class="brandImage">
+      <img src="media/preview1.jpg" alt="Image of ___" />
+
+      <div class="scrollToProducts">
+        <a class="shopCollection" href="#latestDrop">Shop Collection</a>
+      </div>
+    </div>
+
+    <div class="latestDrop" id="latestDrop">
+      <h2>LATEST DROP</h2>
+
+      <div class="products">
+        <div class="product">
+          <img src="media/product1.png" alt="product 1" />
+          <h3>Product Name 1</h3>
+          <p>Price: $26</p>
         </div>
-
-        <!-- Add arrows when hovering slides to go to previous or next image -->
-    
-        <a class="scrollToProducts" href="#products">Shop Collection</a>
+        <div class="product">
+          <img src="media/product1.png" alt="product 2" />
+          <h3>Product Name 2</h3>
+          <p>Price: $29</p>
+        </div>
+        <div class="product">
+          <img src="media/product1.png" alt="product 3" />
+          <h3>Product Name 3</h3>
+          <p>Price: $26</p>
+        </div>
+      </div>
     </div>
 
-    <div class="products">
-        <h2>LATEST DROP</h2>
-
-        <!-- Products here including names and prices. -->
-    </div>
-    
     <div class="datesLocations">
-        <h2>POPUP DATES & LOCATIONS</h2>
+      <h2>POPUP DATES & LOCATIONS</h2>
 
-        <!-- Three example images, dates, and locations -->
+      <div class="popup">
+        <img src="media/popup1.png" alt="Popup 1" />
+        <p>Date: August 20, 2023</p>
+        <p>
+          Location: Uptown Alley |<br />
+          Surprise, AZ
+        </p>
+      </div>
+      <div class="popup">
+        <img src="media/popup1.png" alt="Popup 2" />
+        <p>Date: August 27, 2023</p>
+        <p>
+          Location: In N' Out |<br />
+          Glendale, AZ
+        </p>
+      </div>
+      <div class="popup">
+        <img src="media/popup1.png" alt="Popup 3" />
+        <p>Date: September 3, 2023</p>
+        <p>
+          Location: Cars N Kicks |<br />
+          Phoenix, AZ
+        </p>
+      </div>
     </div>
-    
-    <div class="about">
-        <h2>OUR STORY</h2>
 
-        <!-- p tag with our story and a button to type and share their story -->
+    <div class="about">
+      <h2>OUR STORY</h2>
+      <p>Story will go here.</p>
+      <button class="shareStoryBtn">Share Your Story</button>
     </div>
 
     <footer>
-        <!-- footer will go here -->
+      <div>
+        <ul class="footer-links">
+          <li><a href="policy.html">Refund Policy</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="https://github.com/HBLazerr">My Creator</a></li>
+          <li><a href="#">Scroll to Top</a></li>
+        </ul>
+        <p>&copy; 2023 HeartsBreak Clothing LLC. All rights reserved.</p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

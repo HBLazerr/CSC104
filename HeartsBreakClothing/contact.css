@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Tilt+Prism&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Rowdies';
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+    margin: 0px 20px;
+}
+
+.brandTitle {
+    font-family: 'Tilt Prism';
+    margin: 0;
+    font-size: 50px;
+    cursor: default;
+    user-select: none;
+}
+
+.cart a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+.cart a:hover {
+    color: red;
+}
+
+
+/* Contact Page Styles */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 60px;
+    color: white;
+}
+
+.contact h1 {
+    text-shadow: 0 3px 7px rgba(255, 0, 0, 0.7);
+    margin: 30px 0px;
+    font-size: 35px;
+    color: white;
+}
+
+.contact p {
+    width: 50%;
+    margin: 0px 30px 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: rgb(140, 0, 0);
+}
+
+.contactForm {
+    background-color: black;
+    color: rgb(40, 40, 40);
+    padding: 25px;
+    width: 60%;
+    border: 3px solid whitesmoke;
+}
+
+.contactForm h2 {
+    color: white;
+    font-size: 28px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formLabel {
+    width: 30%;
+    display: block;
+    font-weight: bold;
+    margin: 15px 3px 5px;
+}
+
+input,
+textarea {
+    width: 95%;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: Verdana;
+}
+
+.submitBtn {
+    width: 30%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-family: 'Rowdies';
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+    background-color: red;
+}
+
+.imgStrip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px 60px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: rgb(40, 40, 40);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 15px;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: red;
+}

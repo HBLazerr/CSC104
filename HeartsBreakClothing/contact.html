@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
 
     <title>Contact Us | Hearts Break Clothing</title>
   </head>
@@ -21,17 +21,46 @@
         </a>
       </div>
 
+      <div class="brandName">
+        <h1 class="brandTitle">HEARTS BREAK CLOTHING</h1>
+      </div>
+
       <div class="cart">
         <a href="#"><i class="fas fa-shopping-cart"></i></a>
       </div>
     </nav>
 
     <div class="contact">
-        <h1>GET IN TOUCH</h1>
+      <h1>GET IN TOUCH</h1>
 
+      <p>
+        If you have any questions regarding a refund or exchange policy, please
+        visit our <a href="policy.html">policy page</a>. For any other questions
+        you can call this number <a href="tel:1234567890">123-456-7890</a>, or
+        email us at
+        <a href="mailto:chavezdanny33@gmail.com">support@heartsbreak.com</a>.
+      </p>
+
+      <div class="contactForm">
+        <h2>Send us a message.</h2>
+        <form action="/submit" method="post">
+          <label for="name" class="formLabel">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email" class="formLabel">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message" class="formLabel">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <input type="submit" value="Submit" class="submitBtn" />
+        </form>
+      </div>
     </div>
 
-
+    <div class="imgStrip">
+      <img src="media/contact_image.png" alt="Image of Hearts Break staff" />
+    </div>
 
     <footer>
       <div>
@@ -39,9 +68,9 @@
           <li><a href="policy.html">Refund Policy</a></li>
           <li><a href="contact.html">Contact Us</a></li>
           <li><a href="https://github.com/HBLazerr">My Creator</a></li>
-          <li><a href="#">Scroll to Top</a></li>
+          <li><a href="index.html">Home</a></li>
         </ul>
-        <p>&copy; 2023 HeartsBreak Clothing LLC. All rights reserved.</p>
+        <p>&copy; 2023 Hearts Break Clothing LLC. All rights reserved.</p>
       </div>
     </footer>
   </body>

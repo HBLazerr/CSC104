@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Tilt+Prism&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Rowdies';
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+    margin: 0px 20px;
+}
+
+.brandTitle {
+    font-family: 'Tilt Prism';
+    margin: 0;
+    font-size: 50px;
+    cursor: default;
+    user-select: none;
+}
+
+.cart a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+.cart a:hover {
+    color: red;
+}
+
+
+/* Refund Policy Page Styles */
+.policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: auto;
+    color: white;
+    padding: 30px 30px 60px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.policy h1 {
+    text-shadow: 0 3px 7px rgba(255, 0, 0, 0.7);
+    margin: 30px 0px;
+    font-size: 35px;
+}
+
+.policy p {
+    max-width: 950px;
+    margin: 10px;
+}
+
+.important {
+    color: red;
+}
+
+.policy a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.policy a:hover {
+    color: rgb(140, 0, 0);
+}
+
+.visitLink {
+    padding: 25px;
+}
+
+.visitLink a {
+    margin: 25px;
+}
+
+.imgStrip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px 60px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: rgb(40, 40, 40);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 15px;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: red;
+}

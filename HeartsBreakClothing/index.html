@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
 
     <title>Hearts Break Clothing</title>
   </head>
@@ -22,13 +22,21 @@
         </a>
       </div>
 
+      <div class="brandName">
+        <h1 class="brandTitle">HEARTS BREAK CLOTHING</h1>
+      </div>
+
       <div class="cart">
         <a href="#"><i class="fas fa-shopping-cart"></i></a>
       </div>
     </nav>
 
-    <div class="brandImage">
-      <img src="media/preview1.jpg" alt="Image of ___" />
+    <div class="previewContainer">
+      <img
+        src="media/hbPreview.png"
+        alt="Image of HB T-Shirt"
+        class="brandImage"
+      />
 
       <div class="scrollToProducts">
         <a class="shopCollection" href="#latestDrop">Shop Collection</a>
@@ -36,32 +44,38 @@
     </div>
 
     <div class="latestDrop" id="latestDrop">
-      <h2>LATEST DROP</h2>
+      <h2 class="latestDropTitle">LATEST DROP</h2>
 
       <div class="products">
         <div class="product">
-          <img src="media/product1.png" alt="product 1" />
-          <h3>Product Name 1</h3>
+          <img src="media/CleanBreak_front.png" alt="product 1" />
+          <h3>Clean Break</h3>
+          <p>Price: $23</p>
+        </div>
+        <div class="product">
+          <img src="media/LoveNeverFails_front.png" alt="product 2" />
+          <h3>Love Never Fails</h3>
           <p>Price: $26</p>
         </div>
         <div class="product">
-          <img src="media/product1.png" alt="product 2" />
-          <h3>Product Name 2</h3>
-          <p>Price: $29</p>
-        </div>
-        <div class="product">
-          <img src="media/product1.png" alt="product 3" />
-          <h3>Product Name 3</h3>
+          <img src="media/DrippingHearts_front.png" alt="product 3" />
+          <h3>Dripping Hearts</h3>
           <p>Price: $26</p>
         </div>
       </div>
     </div>
 
     <div class="datesLocations">
-      <h2>POPUP DATES & LOCATIONS</h2>
+      <h2 class="popupTitle">
+        POPUP
+        <br />
+        DATES &
+        <br />
+        LOCATIONS
+      </h2>
 
       <div class="popup">
-        <img src="media/popup1.png" alt="Popup 1" />
+        <img src="media/uptown.png" alt="Popup 1" />
         <p>Date: August 20, 2023</p>
         <p>
           Location: Uptown Alley |<br />
@@ -69,7 +83,7 @@
         </p>
       </div>
       <div class="popup">
-        <img src="media/popup1.png" alt="Popup 2" />
+        <img src="media/in-n-out.png" alt="Popup 2" />
         <p>Date: August 27, 2023</p>
         <p>
           Location: In N' Out |<br />
@@ -77,19 +91,35 @@
         </p>
       </div>
       <div class="popup">
-        <img src="media/popup1.png" alt="Popup 3" />
+        <img src="media/cars-n-kicks.png" alt="Popup 3" />
         <p>Date: September 3, 2023</p>
         <p>
-          Location: Cars N Kicks |<br />
+          Location: Cars N' Kicks |<br />
           Phoenix, AZ
         </p>
       </div>
     </div>
 
     <div class="about">
-      <h2>OUR STORY</h2>
-      <p>Story will go here.</p>
-      <button class="shareStoryBtn">Share Your Story</button>
+      <h2 class="aboutTitle">OUR STORY</h2>
+      <div class="aboutDesc">
+        <p>
+          "Hearts Break" emerged as a sanctuary for those who faced the hardship
+          of a failed relationship. Rather than wallowing in darkness, it stands
+          as a testament to the untapped potential for self-renewal. Much like
+          Greeks would chisel marble to unveil masterpieces, grinding in the
+          gym, we chip away heartache to reveal our true strength. It's a chance
+          to rebuild, crafting resilience and beauty because, indeed,
+          <span style="font-weight: bold">hearts</span>
+          <span style="font-weight: bold">break</span>.
+        </p>
+      </div>
+      <a
+        href="https://twitter.com/intent/tweet?text=%22Hearts%20Break%22%20emerged%20as%20a%20sanctuary%20for%20those%20who%20faced%20the%20hardship%20of%20a%20failed%20relationship.%20Rather%20than%20wallowing%20in%20darkness,%20it%20stands%20as%20a%20testament%20to%20the%20untapped%20potential%20for%20self-renewal.%20It%27s%20a%20chance%20to%20rebuild,%20crafting%20resilience%20and%20beauty.%20%20-Hearts%20Break%20Team"
+        target="_blank"
+      >
+        <button class="shareStoryBtn">Share Story</button>
+      </a>
     </div>
 
     <footer>
@@ -100,7 +130,7 @@
           <li><a href="https://github.com/HBLazerr">My Creator</a></li>
           <li><a href="#">Scroll to Top</a></li>
         </ul>
-        <p>&copy; 2023 HeartsBreak Clothing LLC. All rights reserved.</p>
+        <p>&copy; 2023 Hearts Break Clothing LLC. All rights reserved.</p>
       </div>
     </footer>
   </body>

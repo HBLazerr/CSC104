@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Tilt+Prism&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Verdana;
     scroll-behavior: smooth;
+    font-family: 'Rowdies';
 }
 
 body::-webkit-scrollbar {
@@ -22,6 +24,15 @@ body::-webkit-scrollbar {
 
 .logo img {
     height: 50px;
+    margin: 0px 20px;
+}
+
+.brandTitle {
+    font-family: 'Tilt Prism';
+    margin: 0;
+    font-size: 50px;
+    cursor: default;
+    user-select: none;
 }
 
 .cart a {
@@ -29,62 +40,61 @@ body::-webkit-scrollbar {
     text-decoration: none;
     font-size: 20px;
     transition: color 0.3s ease;
-}
-.cart a:hover {
-    color: red;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
     margin: 0 10px;
     padding: 5px 10px;
 }
 
-
-/* Home Page Styles */
-.brandImage {
-    justify-content: center;
-    width: auto;
-    max-height: 635px;
-    position: relative;
-    overflow: hidden;
+.cart a:hover {
+    color: red;
 }
 
-.brandImage img {
+
+/* Home Page Styles */
+.previewContainer {
     width: 100%;
-    height: 100%;
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandImage {
+    min-width: 100%;
+    min-height: 80%;
+    height: 900px;
     object-fit: cover;
-    object-position: center;
+    object-position: bottom;
 }
 
 .scrollToProducts {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
+    bottom: 30px;
 }
 
 .shopCollection {
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
-    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
     transition: background-color 0.3s ease;
 }
+
 .shopCollection:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.latestDrop h2 {
-    text-align: center;
+.latestDrop {
+    padding: 60px 30px;
 }
 
-.latestDrop {
-    padding: 30px;
+.latestDropTitle {
+    font-size: 35px;
+    text-align: center;
 }
 
 .products {
@@ -96,18 +106,18 @@ body::-webkit-scrollbar {
 
 .product {
     background-color: whitesmoke;
-    max-width: 300px;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px 20px;
+    padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    font-size: 22px;
 }
 
 .product img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 5px;
+    max-width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
 }
 
 .datesLocations {
@@ -115,22 +125,24 @@ body::-webkit-scrollbar {
     justify-content: center;
     text-align: center;
     background-color: red;
-    padding: 40px;
+    padding: 60px;
     text-align: center;
 }
 
-.datesLocations h2 {
+.popupTitle {
     justify-content: center;
-    text-align: center;
+    text-align: left;
     color: white;
-    margin: 10px;
+    margin: 20px;
+    padding-right: 65px;
+    font-size: 35px;
 }
 
 .popup {
     background-color: whitesmoke;
     max-width: 300px;
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -143,92 +155,65 @@ body::-webkit-scrollbar {
 }
 
 .popup p {
-    margin: 5px;
+    margin: 15px 0px 0px;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .about {
-    padding: 20px;
-    margin-bottom: 50px;
+    padding: 60px;
     text-align: center;
+    justify-content: center;
 }
 
-.about h2 {
-    margin-bottom: 10px;
+.aboutTitle {
+    font-size: 35px;
+    margin: 20px;
 }
 
-.about p {
-    margin-top: 90px;
-    margin-bottom: 40px;
+.aboutDesc {
+    width: 60%;
+    margin: 60px auto;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+.aboutDesc p {
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(40, 40, 40);
+    margin: 0;
 }
 
 .shareStoryBtn {
     background-color: rgb(40, 40, 40);
     color: white;
+    font-family: 'Rowdies';
+    font-size: 18px;
     padding: 10px 20px;
-    font-size: 16px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .shareStoryBtn:hover {
     background-color: red;
 }
 
 
-/* Refund Policy Page Styles */
-.policy {
-    background-color: black;
-    color: white;
-    padding: 30px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.policy h1 {
-    margin-bottom: 30px;
-    color: white;
-    text-shadow: 0 3px 7px rgba(255, 0, 0, 0.5);
-}
-
-.policy p {
-    max-width: 950px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.important {
-    color: red;
-}
-
-.policy a {
-    color: red;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-.policy a:hover {
-    color: rgb(140, 0, 0);
-}
-
-.visitLink {
-    line-height: 20px;
-    padding: 25px;
-}
-
-
-/* Contact Page Styles */
-/* Will go here */
-
-
 /* Footer Styles */
 footer {
     background-color: rgb(40, 40, 40);
+    bottom: 0;
+    left: 0;
+    width: 100%;
     color: white;
-    padding: 20px;
-    padding-top: 40px;
     text-align: center;
+    padding: 40px 0px 20px;
 }
 
 .footer-links {
@@ -247,6 +232,7 @@ footer {
     text-decoration: none;
     transition: color 0.3s ease;
 }
+
 .footer-links a:hover {
     color: red;
 }

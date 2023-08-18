@@ -6,13 +6,24 @@ index.html
 
 policy.html
     This page covers the refund policy with descriptions and a link to visit 
-    the contact page if further assistance is needed.
+    the contact page if further assistance is needed. It also includes an 
+    image depicting the brand at the bottom.
 
 contact.html
-    This unfinished contact page will display a get in touch header along with 
-    textboxes for the user to enter their name, email, and message. I may add 
-    the feature to attach a file/image.
+    This contact page displays a get in touch header along with 
+    textboxes for the user to enter their name, email, and message. It also 
+    includes an image depicting the brand's team at the bottom.
 
-style.css
-    This CSS file contains styles for the Hearts Break Clothing website. It 
-    is necessary to show all of the elements on each page in a organized way.
+home.css
+    This CSS file contains styles for the home page (index.html). It 
+    organizes all the content into subcategories: Latest Drop, Popup Dates & 
+    Locations, and an about page. Most sections have images, descriptions, 
+    and headers.
+
+policy.css
+    Manages all styling for policy page. Sizes all text and images properly 
+    to display a nice looking refund policy of the brand.
+
+contact.css
+    Used to style elements in contact page. Displays header and description at 
+    top, form in middle, and image at bottom.
